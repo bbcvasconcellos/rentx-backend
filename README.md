@@ -1,5 +1,6 @@
 # RentX - Backend
 This file repo contains the backend for the mobile application. This project's mere purpose is for studies only. 
+It uses MVC architecture and SOLID principles.
 
 ## Stack used
 - [NodeJS](https://nodejs.org/en/) with [express](https://expressjs.com/)
