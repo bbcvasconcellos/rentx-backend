@@ -4,6 +4,7 @@ It uses MVC architecture and SOLID principles.
 
 ## Stack used
 - [NodeJS](https://nodejs.org/en/) with [express](https://expressjs.com/)
+- [TypeScript](https://www.typescriptlang.org/)
 
 ## How do I start this project? 🤔
 1. Download this repo: `git clone https://github.com/bbcvasconcellos/rentx-backend.git`
