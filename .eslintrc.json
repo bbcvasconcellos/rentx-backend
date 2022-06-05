@@ -74,6 +74,12 @@
 				}
 			}
 		],
+		"no-use-before-define": ["error", {
+			"functions": true,
+			"classes": false,
+			"variables": true,
+			"allowNamedExports": false
+	}],
 		"import/no-extraneous-dependencies": [
 			"error",
 			{

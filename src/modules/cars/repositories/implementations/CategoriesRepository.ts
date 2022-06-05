@@ -5,7 +5,6 @@ class CategoriesRepository implements ICategoriesRepository {
   private categories: Category[];
 
   // singleton
-  // eslint-disable-next-line no-use-before-define
   private static INSTANCE: CategoriesRepository;
 
   // only the class CategoriesRepository can call the constructor
