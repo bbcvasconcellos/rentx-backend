@@ -1,5 +1,5 @@
 import { Category } from '../../model/category';
-import { ICategoriesRepository } from '../../repositories/ICategoriesRepository';
+import { ICategoriesRepository } from '../../repositories/interfaces/ICategoriesRepository';
 
 class ListCategoriesUseCase {
   constructor(private categoriesRepository: ICategoriesRepository) {}
