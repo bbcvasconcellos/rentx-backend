@@ -11,7 +11,7 @@ interface IImportCategory {
 class ImportCategoryUseCase {
   constructor(private categoriesRepositories: ICategoriesRepository) {}
 
-  // tratamento dos dados dos arquivos
+  // file data treatment
   loadCategories(file: Express.Multer.File): Promise<IImportCategory[]> {
     return new Promise((resolve, reject) => {
       const stream = fs.createReadStream(file.path);
@@ -30,6 +30,7 @@ class ImportCategoryUseCase {
           });
         })
         .on('end', () => {
+          fs.promises.unlink(file.path); // removes the files from tmp
           resolve(categories);
         })
         .on('error', (err) => {

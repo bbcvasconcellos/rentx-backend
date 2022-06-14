@@ -12,3 +12,6 @@ It uses MVC architecture and SOLID principles.
 2. Make sure your node version is compatible (v14+), using nvm: `nvm use 14.xx`
 3. Download the dependencies packages: `yarn`
 4. Run the application: `yarn dev`
+
+## More info about the routes? 📖
+After starting the project, go to `localhost:3003/api-docs`
