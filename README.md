@@ -9,12 +9,12 @@ It uses MVC architecture and SOLID principles.
 - [Docker](https://docs.docker.com/)
 
 ## How do I start this project? 🤔
-### With Docker:
+### With Docker 🐋 :
 `docker-compose up -d`
-**To check if the container is up and running:**
-1. `docker ps` *this will return some info about the container; make sure to copy its name under the NAMES column*
+- **To check whether the container is up and running or not:**
+1. `docker ps` *this will return some info about the container; make sure to copy its name under the **NAMES** column*
 2. `docker exec -it <NAME> /bin/bash`
-**For linux users**
+- **For linux users**
 To remove the mandatory sudo command prior to any docker command: https://docs.docker.com/engine/install/linux-postinstall/#manage-docker-as-a-non-root-user
 
 ### Without Docker
