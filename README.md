@@ -9,8 +9,8 @@ It uses MVC architecture and SOLID principles.
 - [Docker](https://docs.docker.com/)
 
 ## How do I start this project? 🤔
-### With Docker
-- `docker-compose up -d`
+### With Docker:
+`docker-compose up -d`
 **To check if the container is up and running:**
 1. `docker ps` *this will return some info about the container; make sure to copy its name under the NAMES column*
 2. `docker exec -it <NAME> /bin/bash`
